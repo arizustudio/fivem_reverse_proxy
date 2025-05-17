@@ -16,7 +16,8 @@ sudo apt install haproxy -y
 ```
 sudo nano /etc/haproxy/haproxy.cfg
 ```
-### Edit HAProxy configuration (change 8.8.8.8 to your main fivem server address)
+### Edit HAProxy configuration
+##### (change 8.8.8.8 to your main fivem server address)
 ```
 frontend fivem_proxy
     bind *:30120
@@ -55,7 +56,8 @@ sudo systemctl start haproxy
 ```
 sudo nano /etc/haproxy/haproxy.cfg
 ```
-### Edit HAProxy configuration (change 8.8.8.8 to your main fivem server address)
+### Edit HAProxy configuration
+##### (change 8.8.8.8 to your main fivem server address)
 ```
 frontend fivem_proxy
     bind *:30120
